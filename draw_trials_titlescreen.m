@@ -1,0 +1,13 @@
+for i = 1:length(trials_titlescreen_goldcoin_posx)
+    temp_rect = make_rectangle(trials_titlescreen_goldcoin_posx(i),...
+        trials_titlescreen_goldcoin_posy(i),...
+        goldcoin_width*0.8,goldcoin_height*0.8);
+    Screen('DrawTexture',INPUTS.window,textures.goldcoin,[],temp_rect);
+end
+
+for i = 1:length(trials_titlescreen_questionmark_posx)
+    temp_rect = make_rectangle(trials_titlescreen_questionmark_posx(i),...
+        trials_titlescreen_questionmark_posy(i),...
+        goldcoin_width*0.8,goldcoin_height*0.8);
+    Screen('DrawTexture',INPUTS.window,textures.questionmark,[],temp_rect);
+end
