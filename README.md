@@ -25,5 +25,10 @@ Scanning: 2, 3
 - updated to Matlab 2019 
 - updated code to handle renamed functions, etc
 
-## TODO fixes
-- sound not working with new Psychtoolbox / new Matlab
+## TODO fixes for new Psychtoolbox / new Matlab
+
+These scripts were tested for full compatibility with Psychtoolbox 2 and Matlab 2016.
+
+With Psychtoolbox 3 and Matlab 2019a, the following need to be updated:
+- sound (the music in each sector)
+- keypresses being read by Psychtoolbox
