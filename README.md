@@ -15,9 +15,10 @@ soundcheck
 run_SAFARI(subjnum, phase, scanning, debug)
 ```
 
-## Keys in use
+## Keys to use
 
-
+Not scanning: u, i
+Scanning: 2, 3
 
 ## Changes relative to last working version, used in JNeuro paper
 - updated to Psychtoolbox 3 (vs 2)
